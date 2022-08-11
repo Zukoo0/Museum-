@@ -1,0 +1,344 @@
+html{
+    font-family: 'cairo';
+}
+
+header{
+    min-height: 100vh;
+    /* background: linear-gradient(rgba(0,0,0,0.2) , rgba(0,0,0,0.2))
+    , url(../images/header.jpg) ; */
+    background-image: url(../images/header.jpg);
+    background-size: cover;
+    /* background-position: center; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav1{
+    display: flex;
+    list-style: none;
+}
+
+.nav1 li{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.nav1 li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav1 li a:hover{
+   color: crimson;
+   font-size: 17px;
+}
+
+.logo{
+    height: 170px;
+}
+
+.here{
+    position: absolute;
+    top: 30%;
+}
+
+.here h1{
+    font-size: 40px;
+}
+
+h1{
+   font-weight: 500;
+    text-transform: uppercase;
+    line-height: 150%;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    margin-bottom: 40px;
+    /* font-size: 2rem; */
+}
+
+.here a{
+    border: solid 3px black;
+    border-radius: 15px ;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px 10px 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.here a:hover{
+    background-color: black;
+    color: white;
+}
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2{
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+hr{
+    width: 100px;
+    margin-bottom: 20px;
+    border: solid 1px black;
+    background-color: black;
+}
+
+.open{
+    width: 60%;
+    margin: 0px auto 20px auto;
+    line-height: 150%;
+    text-align: center;
+}
+
+h3{
+    font-weight: 500;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.arti{
+    text-align: center;
+}
+
+.arti p{
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.arti i{
+    color: blue;
+    font-size: 40px;
+}
+
+.paint{
+    padding: 0;
+    margin-bottom: -5px;
+    background-color: black;
+    overflow: hidden;
+}
+ 
+.paint img{
+    width: 100%;
+    opacity: .5;
+    transition: 0.5s;
+    transform: scale(1.2);
+}
+
+.paint img:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.left-side{
+    text-align: right;
+}
+
+.left-side img{
+    width: 50%;
+}
+
+.way{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.way div{
+    width: 50px;
+    height: 50px;
+    border: solid 2px black;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    margin-right: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.right-side{
+    padding-top: 50px;
+}
+
+.right-side a{
+    margin-right: 20px;
+}
+
+.right-side img{
+    height: 50px;
+}
+
+h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.photographer img{
+    width: 100%;
+}
+
+.photographer-info{
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.photographer-info i{
+    color: blue;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+.review{
+    background:
+    linear-gradient(rgba(0,0,0,0.5) , rgba(0,0,0,0.5)) , url(../images/review.jpg) ;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+}
+
+.review hr{
+    margin-bottom: 60px;
+    border: solid 1px white;
+    background-color: white;
+}
+
+.review i{
+    font-size: 50px;
+}
+
+.review p{
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 150%;
+    /* margin-left: 60px; */
+}
+.review img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.visitor{
+    display: flex;
+}
+
+
+.visitor p{
+    font-size: 15px;
+}
+
+form{
+    padding-top: 50px;
+}
+
+label{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+select ,textarea
+{
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type="checkbox"] 
+{
+    margin-bottom: 20px;
+}
+
+button{
+    padding: 10px 20px;
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover{
+    border: 3px solid black;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    padding: 40px 0px ;
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+footer p{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+}
+
+.nav2{
+    list-style: none;
+    display: flex;
+}
+
+.nav2 li{
+    margin-right: 30px;
+}
+
+.nav2 li a{
+    text-decoration: none;
+    color: white; 
+    text-transform: uppercase;
+}
+
+.nav2 li a:hover{
+    color: red;
+}
+
+.nav3{
+    list-style: none;
+    display: flex;
+    float: right;
+}
+
+.nav3 li{
+    margin-right: 30px;
+}
+
+.nav3 li a{
+    text-decoration: none;
+    color: white; 
+    text-transform: uppercase;
+}
+
+.nav3 li a:hover{
+    color: blue;
+}
+
